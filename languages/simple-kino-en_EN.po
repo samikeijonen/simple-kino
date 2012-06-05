@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Foxnet Kino\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-31 20:17+0200\n"
+"PO-Revision-Date: 2012-05-31 20:18+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: simple-kino.php:174
+msgid "Movies"
+msgstr ""
+
+#: simple-kino.php:175
+#: simple-kino.php:696
+msgid "Movie"
+msgstr ""
+
+#: simple-kino.php:176
+msgid "Add New"
+msgstr ""
+
+#: simple-kino.php:177
+msgid "Add New Movie"
+msgstr ""
+
+#: simple-kino.php:178
+msgid "Edit"
+msgstr ""
+
+#: simple-kino.php:179
+msgid "Edit Movie"
+msgstr ""
+
+#: simple-kino.php:180
+msgid "New Movie"
+msgstr ""
+
+#: simple-kino.php:181
+#: simple-kino.php:182
+msgid "View Movie"
+msgstr ""
+
+#: simple-kino.php:183
+msgid "Search Movies"
+msgstr ""
+
+#: simple-kino.php:184
+msgid "No movies found"
+msgstr ""
+
+#: simple-kino.php:185
+msgid "No movies found in Trash"
+msgstr ""
+
+#: simple-kino.php:235
+#: simple-kino.php:697
+msgid "Movietimes"
+msgstr ""
+
+#: simple-kino.php:236
+msgid "Movietime"
+msgstr ""
+
+#: simple-kino.php:237
+msgid "Search Movietimes"
+msgstr ""
+
+#: simple-kino.php:238
+msgid "All Movietimes"
+msgstr ""
+
+#: simple-kino.php:239
+msgid "Edit Movietime"
+msgstr ""
+
+#: simple-kino.php:240
+msgid "Update Movietime"
+msgstr ""
+
+#: simple-kino.php:241
+msgid "Add New Movietime"
+msgstr ""
+
+#: simple-kino.php:242
+msgid "New Movietime Name"
+msgstr ""
+
+#: simple-kino.php:252
+#: simple-kino.php:253
+msgid "Genre"
+msgstr ""
+
+#: simple-kino.php:254
+msgid "Search Genres"
+msgstr ""
+
+#: simple-kino.php:255
+msgid "Popular Genres"
+msgstr ""
+
+#: simple-kino.php:256
+msgid "All Genres"
+msgstr ""
+
+#: simple-kino.php:257
+msgid "Edit Genre"
+msgstr ""
+
+#: simple-kino.php:258
+msgid "Update Genre"
+msgstr ""
+
+#: simple-kino.php:259
+msgid "Add New Genre"
+msgstr ""
+
+#: simple-kino.php:260
+msgid "New Genre Name"
+msgstr ""
+
+#: simple-kino.php:261
+msgid "Sepatate Genres with commas"
+msgstr ""
+
+#: simple-kino.php:262
+msgid "Add or remove Genres"
+msgstr ""
+
+#: simple-kino.php:263
+msgid "Choose from the most popular Genres"
+msgstr ""
+
+#: simple-kino.php:273
+#: simple-kino.php:274
+msgid "Director"
+msgstr ""
+
+#: simple-kino.php:275
+msgid "Search Directors"
+msgstr ""
+
+#: simple-kino.php:276
+msgid "Popular Directors"
+msgstr ""
+
+#: simple-kino.php:277
+msgid "All Directors"
+msgstr ""
+
+#: simple-kino.php:278
+msgid "Edit Director"
+msgstr ""
+
+#: simple-kino.php:279
+msgid "Update Director"
+msgstr ""
+
+#: simple-kino.php:280
+msgid "Add New Director"
+msgstr ""
+
+#: simple-kino.php:281
+msgid "New Director Name"
+msgstr ""
+
+#: simple-kino.php:282
+msgid "Sepatate Directors with commas"
+msgstr ""
+
+#: simple-kino.php:283
+msgid "Add or remove Directors"
+msgstr ""
+
+#: simple-kino.php:284
+msgid "Choose from the most popular Directors"
+msgstr ""
+
+#: simple-kino.php:294
+#: simple-kino.php:295
+msgid "Actor"
+msgstr ""
+
+#: simple-kino.php:296
+msgid "Search Actors"
+msgstr ""
+
+#: simple-kino.php:297
+msgid "Popular Actors"
+msgstr ""
+
+#: simple-kino.php:298
+msgid "All Actors"
+msgstr ""
+
+#: simple-kino.php:299
+msgid "Edit Actor"
+msgstr ""
+
+#: simple-kino.php:300
+msgid "Update Actor"
+msgstr ""
+
+#: simple-kino.php:301
+msgid "Add New Actor"
+msgstr ""
+
+#: simple-kino.php:302
+msgid "New Actor Name"
+msgstr ""
+
+#: simple-kino.php:303
+msgid "Sepatate Actors with commas"
+msgstr ""
+
+#: simple-kino.php:304
+msgid "Add or remove Actors"
+msgstr ""
+
+#: simple-kino.php:305
+msgid "Choose from the most popular Actors"
+msgstr ""
+
+#: simple-kino.php:315
+#: simple-kino.php:316
+msgid "Age limit"
+msgstr ""
+
+#: simple-kino.php:317
+msgid "Search Age limits"
+msgstr ""
+
+#: simple-kino.php:318
+msgid "Popular Age limits"
+msgstr ""
+
+#: simple-kino.php:319
+msgid "All Age limits"
+msgstr ""
+
+#: simple-kino.php:320
+msgid "Edit Age limit"
+msgstr ""
+
+#: simple-kino.php:321
+msgid "Update Age limit"
+msgstr ""
+
+#: simple-kino.php:322
+msgid "Add New Age limit"
+msgstr ""
+
+#: simple-kino.php:323
+msgid "New Age limit Name"
+msgstr ""
+
+#: simple-kino.php:324
+msgid "Sepatate Age limits with commas"
+msgstr ""
+
+#: simple-kino.php:325
+msgid "Add or remove Age limits"
+msgstr ""
+
+#: simple-kino.php:326
+msgid "Choose from the most popular Age limits"
+msgstr ""
+
+#: simple-kino.php:344
+msgid "Movie Information"
+msgstr ""
+
+#: simple-kino.php:387
+msgid "Movie showtimes:"
+msgstr ""
+
+#: simple-kino.php:389
+msgid "Only ul, ol, li, p and strong html tags are accepted."
+msgstr ""
+
+#: simple-kino.php:394
+msgid "Movie Trailer website:"
+msgstr ""
+
+#: simple-kino.php:396
+#: simple-kino.php:403
+msgid "Remember to include http://"
+msgstr ""
+
+#: simple-kino.php:401
+msgid "Movie website:"
+msgstr ""
+
+#: simple-kino.php:408
+#: simple-kino.php:631
+msgid "Movie duration:"
+msgstr ""
+
+#: simple-kino.php:410
+msgid "For example 2h 20min."
+msgstr ""
+
+#: simple-kino.php:415
+msgid "Movie ticket price:"
+msgstr ""
+
+#: simple-kino.php:417
+msgid "For example 12 &euro;, students 10 &euro;"
+msgstr ""
+
+#: simple-kino.php:422
+#: simple-kino.php:658
+msgid "Premiere:"
+msgstr ""
+
+#: simple-kino.php:423
+#: simple-kino.php:659
+msgid "Y/m/d"
+msgstr ""
+
+#: simple-kino.php:424
+msgid "For upcoming movies premiere date"
+msgstr ""
+
+#: simple-kino.php:524
+msgid "yy/m/d"
+msgstr ""
+
+#: simple-kino.php:572
+msgid "Movie Synopsis"
+msgstr ""
+
+#: simple-kino.php:575
+#: simple-kino.php:679
+msgid "Movie Showtimes"
+msgstr ""
+
+#: simple-kino.php:578
+msgid "Movie Gallery"
+msgstr ""
+
+#: simple-kino.php:584
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: simple-kino.php:620
+msgid "Genre:&nbsp;"
+msgstr ""
+
+#: simple-kino.php:621
+msgid "Director:&nbsp;"
+msgstr ""
+
+#: simple-kino.php:622
+msgid "Actors:&nbsp;"
+msgstr ""
+
+#: simple-kino.php:627
+msgid "Age limit:&nbsp;"
+msgstr ""
+
+#: simple-kino.php:637
+msgid "Trailer"
+msgstr ""
+
+#: simple-kino.php:643
+msgid "Website"
+msgstr ""
+
+#: simple-kino.php:652
+msgid "Tickets:"
+msgstr ""
+
+#: simple-kino.php:698
+msgid "Duration"
+msgstr ""
+
+#: simple-kino.php:699
+msgid "Comments"
+msgstr ""
+
+#: simple-kino.php:700
+msgid "Date"
+msgstr ""
+
+#: simple-kino.php:724
+msgid "Unknown"
+msgstr ""
+
+#: simple-kino.php:728
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: simple-kino.php:757
+msgid "No Movietimes"
+msgstr ""
+
+#: simple-kino.php:777
+#, php-format
+msgid "Movie updated. <a href=\"%s\">View movie</a>"
+msgstr ""
+
+#: simple-kino.php:778
+msgid "Custom field updated."
+msgstr ""
+
+#: simple-kino.php:779
+msgid "Custom field deleted."
+msgstr ""
+
+#: simple-kino.php:780
+msgid "Movie updated."
+msgstr ""
+
+#: simple-kino.php:782
+#, php-format
+msgid "Movie restored to revision from %s"
+msgstr ""
+
+#: simple-kino.php:783
+#, php-format
+msgid "Movie published. <a href=\"%s\">View movie</a>"
+msgstr ""
+
+#: simple-kino.php:784
+msgid "Movie saved."
+msgstr ""
+
+#: simple-kino.php:785
+#, php-format
+msgid "Movie submitted. <a target=\"_blank\" href=\"%s\">Preview movie</a>"
+msgstr ""
+
+#: simple-kino.php:786
+#, php-format
+msgid "Movie scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview movie</a>"
+msgstr ""
+
+#: simple-kino.php:788
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: simple-kino.php:789
+#, php-format
+msgid "Movie draft updated. <a target=\"_blank\" href=\"%s\">Preview movie</a>"
+msgstr ""
+

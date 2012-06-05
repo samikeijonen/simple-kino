@@ -1,0 +1,1377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Foxnet Kino\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-31 20:18+0200\n"
+"PO-Revision-Date: 2012-05-31 20:20+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: simple-kino.php:174
+msgid "Movies"
+msgstr "Elokuvat"
+
+#: simple-kino.php:175
+#: simple-kino.php:696
+msgid "Movie"
+msgstr "Elokuva"
+
+#: simple-kino.php:176
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: simple-kino.php:177
+msgid "Add New Movie"
+msgstr "Lisää uusi elokuva"
+
+#: simple-kino.php:178
+msgid "Edit"
+msgstr "Editoi"
+
+#: simple-kino.php:179
+msgid "Edit Movie"
+msgstr "Editoi elokuvaa"
+
+#: simple-kino.php:180
+msgid "New Movie"
+msgstr "Uusi elokuva"
+
+#: simple-kino.php:181
+#: simple-kino.php:182
+msgid "View Movie"
+msgstr "Näytä elokuva"
+
+#: simple-kino.php:183
+msgid "Search Movies"
+msgstr "Etsi elokuvia"
+
+#: simple-kino.php:184
+msgid "No movies found"
+msgstr "Elokuvia ei löytynyt"
+
+#: simple-kino.php:185
+msgid "No movies found in Trash"
+msgstr "Elokuvia ei löytynyt roskakorista"
+
+#: simple-kino.php:235
+#: simple-kino.php:697
+msgid "Movietimes"
+msgstr "Ajankohdat"
+
+#: simple-kino.php:236
+msgid "Movietime"
+msgstr "Ajankohta"
+
+#: simple-kino.php:237
+msgid "Search Movietimes"
+msgstr "Etsi elokuvan ajankohtia"
+
+#: simple-kino.php:238
+msgid "All Movietimes"
+msgstr "Kaikki ajankohdat"
+
+#: simple-kino.php:239
+msgid "Edit Movietime"
+msgstr "Editoi ajankohtaa"
+
+#: simple-kino.php:240
+msgid "Update Movietime"
+msgstr "Päivitä elokuvan ajankohta"
+
+#: simple-kino.php:241
+msgid "Add New Movietime"
+msgstr "Lisää uusi ajankohta"
+
+#: simple-kino.php:242
+msgid "New Movietime Name"
+msgstr "Uusi ajankohdan nimi"
+
+#: simple-kino.php:252
+#: simple-kino.php:253
+msgid "Genre"
+msgstr "Lajityyppi"
+
+#: simple-kino.php:254
+msgid "Search Genres"
+msgstr "Etsi lajityyppejä"
+
+#: simple-kino.php:255
+msgid "Popular Genres"
+msgstr "Suosituimmat lajityypit"
+
+#: simple-kino.php:256
+msgid "All Genres"
+msgstr "Kaikki lajityypit"
+
+#: simple-kino.php:257
+msgid "Edit Genre"
+msgstr "Editoi lajityyppiä"
+
+#: simple-kino.php:258
+msgid "Update Genre"
+msgstr "Päivitä lajityyppi"
+
+#: simple-kino.php:259
+msgid "Add New Genre"
+msgstr "Lisää uusi lajityyppi"
+
+#: simple-kino.php:260
+msgid "New Genre Name"
+msgstr "Uuden lajityypin nimi"
+
+#: simple-kino.php:261
+msgid "Sepatate Genres with commas"
+msgstr "Erota lajityypit pilkulla"
+
+#: simple-kino.php:262
+msgid "Add or remove Genres"
+msgstr "Lisää tai poista lajityyppejä"
+
+#: simple-kino.php:263
+msgid "Choose from the most popular Genres"
+msgstr "Valitse suosituimmista lajityypeistä"
+
+#: simple-kino.php:273
+#: simple-kino.php:274
+msgid "Director"
+msgstr "Ohjaaja"
+
+#: simple-kino.php:275
+msgid "Search Directors"
+msgstr "Etsi ohjaajia"
+
+#: simple-kino.php:276
+msgid "Popular Directors"
+msgstr "Suosituimmat ohjaajat"
+
+#: simple-kino.php:277
+msgid "All Directors"
+msgstr "Kaikki ohjaajat"
+
+#: simple-kino.php:278
+msgid "Edit Director"
+msgstr "Editoi ohjaajaa"
+
+#: simple-kino.php:279
+msgid "Update Director"
+msgstr "Päivitä ohjaaja"
+
+#: simple-kino.php:280
+msgid "Add New Director"
+msgstr "Lisää uusi ohjaaja"
+
+#: simple-kino.php:281
+msgid "New Director Name"
+msgstr "Uuden ohjaajan nimi"
+
+#: simple-kino.php:282
+msgid "Sepatate Directors with commas"
+msgstr "Erota ohjaajat pilkulla"
+
+#: simple-kino.php:283
+msgid "Add or remove Directors"
+msgstr "Lisää tai poista ohjaajia"
+
+#: simple-kino.php:284
+msgid "Choose from the most popular Directors"
+msgstr "Valitse suosituimmista ohjaajista"
+
+#: simple-kino.php:294
+#: simple-kino.php:295
+msgid "Actor"
+msgstr "Näyttelijä"
+
+#: simple-kino.php:296
+msgid "Search Actors"
+msgstr "Etsi näyttelijöitä"
+
+#: simple-kino.php:297
+msgid "Popular Actors"
+msgstr "Suosituimmat näyttelijät"
+
+#: simple-kino.php:298
+msgid "All Actors"
+msgstr "Kaikki näyttelijät"
+
+#: simple-kino.php:299
+msgid "Edit Actor"
+msgstr "Editoi näyttelijää"
+
+#: simple-kino.php:300
+msgid "Update Actor"
+msgstr "Päivitä näyttelijä"
+
+#: simple-kino.php:301
+msgid "Add New Actor"
+msgstr "Lisää uusi näyttelijä"
+
+#: simple-kino.php:302
+msgid "New Actor Name"
+msgstr "Uuden näyttelijän nimi"
+
+#: simple-kino.php:303
+msgid "Sepatate Actors with commas"
+msgstr "Erota näyttelijät pilkulla"
+
+#: simple-kino.php:304
+msgid "Add or remove Actors"
+msgstr "Lisää tai poista näyttelijöitä"
+
+#: simple-kino.php:305
+msgid "Choose from the most popular Actors"
+msgstr "Valitse suosituimmista näyttelijöistä"
+
+#: simple-kino.php:315
+#: simple-kino.php:316
+msgid "Age limit"
+msgstr "Ikäraja"
+
+#: simple-kino.php:317
+msgid "Search Age limits"
+msgstr "Etsi ikärajoista"
+
+#: simple-kino.php:318
+msgid "Popular Age limits"
+msgstr "Suositut ikärajat"
+
+#: simple-kino.php:319
+msgid "All Age limits"
+msgstr "Kaikki ikärajat"
+
+#: simple-kino.php:320
+msgid "Edit Age limit"
+msgstr "Editoi ikärajaa"
+
+#: simple-kino.php:321
+msgid "Update Age limit"
+msgstr "Päivitä ikärajaa"
+
+#: simple-kino.php:322
+msgid "Add New Age limit"
+msgstr "Lisää uusi ikäraja"
+
+#: simple-kino.php:323
+msgid "New Age limit Name"
+msgstr "Uuden ikärajan nimi"
+
+#: simple-kino.php:324
+msgid "Sepatate Age limits with commas"
+msgstr "Erota ikärajat pilkulla"
+
+#: simple-kino.php:325
+msgid "Add or remove Age limits"
+msgstr "Lisää tai poista ikärajoja"
+
+#: simple-kino.php:326
+msgid "Choose from the most popular Age limits"
+msgstr "Valitse suosituimmista ikärajoista"
+
+#: simple-kino.php:344
+msgid "Movie Information"
+msgstr "Elokuvan informaatio"
+
+#: simple-kino.php:387
+msgid "Movie showtimes:"
+msgstr "Elokuvan näytösajat:"
+
+#: simple-kino.php:389
+msgid "Only ul, ol, li, p and strong html tags are accepted."
+msgstr "Vain ul, ol, li, p ja strong html tagit ovat hyväksyttyjä."
+
+#: simple-kino.php:394
+msgid "Movie Trailer website:"
+msgstr "Elokuvan trailerin kotisivu:"
+
+#: simple-kino.php:396
+#: simple-kino.php:403
+msgid "Remember to include http://"
+msgstr "Muista laittaa alkuun http://"
+
+#: simple-kino.php:401
+msgid "Movie website:"
+msgstr "Elokuvan kotisivu:"
+
+#: simple-kino.php:408
+#: simple-kino.php:631
+msgid "Movie duration:"
+msgstr "Elokuvan kesto:"
+
+#: simple-kino.php:410
+msgid "For example 2h 20min."
+msgstr "Esimerkiksi 2h 20min."
+
+#: simple-kino.php:415
+msgid "Movie ticket price:"
+msgstr "Elokuvan lipun hinta:"
+
+#: simple-kino.php:417
+msgid "For example 12 &euro;, students 10 &euro;"
+msgstr "Esimerkiksi 12 &euro;, opiskelijat 10 &euro;"
+
+#: simple-kino.php:422
+#: simple-kino.php:658
+msgid "Premiere:"
+msgstr "Ensi-ilta:"
+
+#: simple-kino.php:423
+#: simple-kino.php:659
+msgid "Y/m/d"
+msgstr "j.n.Y"
+
+#: simple-kino.php:424
+msgid "For upcoming movies premiere date"
+msgstr "Tulevien elokuvien ensi-iltapäivämäärä"
+
+#: simple-kino.php:524
+msgid "yy/m/d"
+msgstr "d.m.yy"
+
+#: simple-kino.php:572
+msgid "Movie Synopsis"
+msgstr "Elokuvan synopsis"
+
+#: simple-kino.php:575
+#: simple-kino.php:679
+msgid "Movie Showtimes"
+msgstr "Elokuvan näytösajat"
+
+#: simple-kino.php:578
+msgid "Movie Gallery"
+msgstr "Elokuvan kuvagalleria"
+
+#: simple-kino.php:584
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Jatka lukemista <span class=\"meta-nav\">&rarr;</span>"
+
+#: simple-kino.php:620
+msgid "Genre:&nbsp;"
+msgstr "Lajityyppi:&nbsp;"
+
+#: simple-kino.php:621
+msgid "Director:&nbsp;"
+msgstr "Ohjaaja:&nbsp;"
+
+#: simple-kino.php:622
+msgid "Actors:&nbsp;"
+msgstr "Näyttelijät:&nbsp;"
+
+#: simple-kino.php:627
+msgid "Age limit:&nbsp;"
+msgstr "Ikäraja:&nbsp;"
+
+#: simple-kino.php:637
+msgid "Trailer"
+msgstr "Traileri"
+
+#: simple-kino.php:643
+msgid "Website"
+msgstr "Kotisivu"
+
+#: simple-kino.php:652
+msgid "Tickets:"
+msgstr "Liput:"
+
+#: simple-kino.php:698
+msgid "Duration"
+msgstr "Kesto"
+
+#: simple-kino.php:699
+msgid "Comments"
+msgstr "Kommentit"
+
+#: simple-kino.php:700
+msgid "Date"
+msgstr "Päivä"
+
+#: simple-kino.php:724
+msgid "Unknown"
+msgstr "Ei tiedossa"
+
+#: simple-kino.php:728
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: simple-kino.php:757
+msgid "No Movietimes"
+msgstr "Ei näytösaikaa"
+
+#: simple-kino.php:777
+#, php-format
+msgid "Movie updated. <a href=\"%s\">View movie</a>"
+msgstr "Elokuva päivitetty. <a href=\"%s\">Näytä elokuva</a>"
+
+#: simple-kino.php:778
+msgid "Custom field updated."
+msgstr "Avainkenttä päivitetty."
+
+#: simple-kino.php:779
+msgid "Custom field deleted."
+msgstr "Avainkenttä poistettu."
+
+#: simple-kino.php:780
+msgid "Movie updated."
+msgstr "Elokuva päivitetty."
+
+#: simple-kino.php:782
+#, php-format
+msgid "Movie restored to revision from %s"
+msgstr "Elokuva palautettu versiosta %s"
+
+#: simple-kino.php:783
+#, php-format
+msgid "Movie published. <a href=\"%s\">View movie</a>"
+msgstr "Elokuva julkaistu. <a href=\"%s\">Näytä elokuva</a>"
+
+#: simple-kino.php:784
+msgid "Movie saved."
+msgstr "Elokuva tallennettu."
+
+#: simple-kino.php:785
+#, php-format
+msgid "Movie submitted. <a target=\"_blank\" href=\"%s\">Preview movie</a>"
+msgstr "Elokuva lähetetty. <a target=\"_blank\" href=\"%s\">Esikatsele elokuvaa</a>"
+
+#: simple-kino.php:786
+#, php-format
+msgid "Movie scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview movie</a>"
+msgstr "Elokuva ajastettu alkamaan: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Esikatsele elokuvaa</a>"
+
+#: simple-kino.php:788
+msgid "M j, Y @ G:i"
+msgstr "j.n.Y @ G.i"
+
+#: simple-kino.php:789
+#, php-format
+msgid "Movie draft updated. <a target=\"_blank\" href=\"%s\">Preview movie</a>"
+msgstr "Elokuvan luonnos päivitetty. <a target=\"_blank\" href=\"%s\">Esikatsele elokuvaa</a>"
+
+#~ msgid "Movie duration."
+#~ msgstr "Elokuvan kesto."
+
+#~ msgid "Premiere"
+#~ msgstr "Ensi-ilta"
+
+#~ msgid "F j, Y"
+#~ msgstr "F j, Y"
+
+#~ msgid "Not Found"
+#~ msgstr "Sivua ei löytynyt"
+
+#~ msgid ""
+#~ "You tried going to %1$s, and it doesn't exist. All is not lost! You can "
+#~ "search for what you're looking for."
+#~ msgstr ""
+#~ "Yritit mennä sivulle %1$s, mutta sitä ei enää ole. Voit etsiä haluamaasi "
+#~ "sivua tai navigoida menuvalikosta."
+
+#~ msgid "<p>Playing:&nbsp;"
+#~ msgstr "<p>Ohjelmistossa:&nbsp;"
+
+#~ msgid "Pages:"
+#~ msgstr "Sivut:"
+
+#~ msgid ""
+#~ "By [entry-author] on [entry-published] [entry-comments-link before=\" | "
+#~ "\"] [entry-edit-link before=\" | \"]"
+#~ msgstr ""
+#~ "[entry-author] [entry-published] [entry-comments-link before=\" | \"] "
+#~ "[entry-edit-link before=\" | \"]"
+
+#~ msgid "Sizes: %s"
+#~ msgstr "Kuvakoot: %s"
+
+#~ msgid "Download \"%s\";"
+#~ msgstr "Lataa \"%s\";"
+
+#~ msgid "Gallery"
+#~ msgstr "Kuvagalleria"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Kommenttisi odottaa hyväksymistä."
+
+#~ msgid "Please do not load this page directly. Thanks!"
+#~ msgstr "Älä lataa tätä sivua suoraan kiitos!"
+
+#~ msgid "No Responses"
+#~ msgstr "Ei kommentteja"
+
+#~ msgid "One Response"
+#~ msgstr "Yksi kommentti"
+
+#~ msgid "% Responses"
+#~ msgstr "% Kommenttia"
+
+#~ msgid "Page %1$s of %2$s"
+#~ msgstr "Sivu %1$s / %2$s"
+
+#~ msgid ""
+#~ "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this "
+#~ "post\">trackbacks</a> and pingbacks are open."
+#~ msgstr ""
+#~ "Kommentointi on suljettu, mutta <a href=\"%1$s\" title=\"Trackback URL "
+#~ "for this post\">trackbacks</a> ja pingbacks ovat avoinna."
+
+#~ msgid "Comments are closed."
+#~ msgstr "Kommentointi on suljettu."
+
+#~ msgid "Front Page template settings"
+#~ msgstr "Front Page - sivupohjan asetukset"
+
+#~ msgid "Choose movie gategory 1:"
+#~ msgstr "Valitse elokuvakategoria 1:"
+
+#~ msgid "This is shown in Front page template first."
+#~ msgstr "Tämä näkyy Front page - sivupohjassa ensin."
+
+#~ msgid "How many movies are shown in category 1:"
+#~ msgstr "Kuinka monta elokuvaa näkyy kategoriassa 1:"
+
+#~ msgid "Recommended numbers are 3, 6, 9 and 12. Default is 3."
+#~ msgstr "Suositellut luvut ovat 3, 6, 9 ja 12. Oletus on 3."
+
+#~ msgid "Choose movie gategory 2:"
+#~ msgstr "Valitse elokuvakategoria 2:"
+
+#~ msgid "This is shown in Front page template second."
+#~ msgstr "Tämä näkyy Front page - sivupohjassa toisena."
+
+#~ msgid "How many movies are shown in category 2:"
+#~ msgstr "Kuinka monta elokuvaa näkyy kategoriassa 2:"
+
+#~ msgid ""
+#~ "You can choose what and how many movies to show in front page template. "
+#~ "This is meant to be like Playing now and Upcoming movies categories. You "
+#~ "can also change your text in footer."
+#~ msgstr ""
+#~ "Voit valita mitä elokuvia ja kuinka paljon näkyy front page - "
+#~ "sivupohjassa. Tämä on tarkoitettu elokuvakategorioille kuten Elokuvissa "
+#~ "nyt ja Tulevat elokuvat. Voit myös vaihtaa footerin tekstiä."
+
+#~ msgid "For more information:"
+#~ msgstr "Lisäinformaatiota:"
+
+#~ msgid "Foxnet Kino documentation"
+#~ msgstr "Foxnet Kino dokumentaatio"
+
+#~ msgid "More information can be found in Foxnet Kino home page."
+#~ msgstr "Lisätietoja Foxnet Kinon kotisivulta."
+
+#~ msgid "You are here:"
+#~ msgstr "Olet täällä:"
+
+#~ msgid "Apologies, but no entries were found."
+#~ msgstr "Pahoittelut, mutta yhtään sivua/artikkelia ei löytynyt."
+
+#~ msgid "You are browsing the search results for \"%s\""
+#~ msgstr "Hakutulokset haulla \"%s\""
+
+#~ msgid "Archives by date"
+#~ msgstr "Arkisto päivittäin"
+
+#~ msgid "You are browsing the site archives by date."
+#~ msgstr "Selaat päiväkohtaista arkistoa."
+
+#~ msgid "Archives"
+#~ msgstr "Arkistot"
+
+#~ msgid "You are browsing the site archives."
+#~ msgstr "Selaat arkistoa."
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Palaa takaisin"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Edellinen"
+
+#~ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Seuraava <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Next &rarr;"
+#~ msgstr "Seuraava &rarr;"
+
+#~ msgid "[entry-edit-link before=\" | \"]"
+#~ msgstr "[entry-edit-link before=\" | \"]"
+
+#~ msgid "Archives by category"
+#~ msgstr "Arkisto kategorioittain"
+
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#~ msgid "Archives by month"
+#~ msgstr "Arkisto kuukausittain"
+
+#~ msgid "Look all &raquo; %s"
+#~ msgstr "Katso kaikki &raquo; %s"
+
+#~ msgid ""
+#~ "Choose what movies you want to show from <a href=\"%1$s\">settings page</"
+#~ "a>"
+#~ msgstr ""
+#~ "Valitse mitä elokuvia haluat näkyvän menemällä <a href=\"%1$s\">asetukset-"
+#~ "sivulle</a>"
+
+#~ msgid ""
+#~ "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+#~ "taxonomy=\"post_tag\" before=\"Tagged \"]"
+#~ msgstr ""
+#~ "[entry-terms taxonomy=\"category\" before=\"Kategoriassa \"] [entry-terms "
+#~ "taxonomy=\"post_tag\" before=\"Avainsanat \"]"
+
+#~ msgid "[entry-published] &mdash; %s"
+#~ msgstr "[entry-published] &mdash; %s"
+
+#~ msgid "Search this site..."
+#~ msgstr "Etsi tältä sivulta..."
+
+#~ msgid "Search"
+#~ msgstr "Etsi"
+
+#~ msgid "%s SEO"
+#~ msgstr "%s SEO"
+
+#~ msgid "Document Title:"
+#~ msgstr "Dokumentin otsikko:"
+
+#~ msgid "Meta Description:"
+#~ msgstr "Meta kuvaus:"
+
+#~ msgid "Meta Keywords:"
+#~ msgstr "Meta avainsanat:"
+
+#~ msgid "%s Template"
+#~ msgstr "%s Sivupohja"
+
+#~ msgid "No templates exist for this post type."
+#~ msgstr "Tälle artikkelityypille ei löytynyt sivupohjaa."
+
+#~ msgid "About %1$s"
+#~ msgstr "Tiedot %1$s"
+
+#~ msgid "Theme:"
+#~ msgstr "Teema:"
+
+#~ msgid "Version:"
+#~ msgstr "Versio:"
+
+#~ msgid "Author:"
+#~ msgstr "Tekijä:"
+
+#~ msgid "Description:"
+#~ msgstr "Kuvaus:"
+
+#~ msgid "Footer settings"
+#~ msgstr "Footerin asetukset"
+
+#~ msgid ""
+#~ "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
+#~ "acronym> and/or shortcodes, which will be automatically inserted into "
+#~ "your theme."
+#~ msgstr ""
+#~ "Voit lisätä omaa <acronym title=\"Hypertext Markup Language\">HTML-"
+#~ "koodia</acronym> ja/tai lyhytkoodeja (shortcodes), jotka lisätään "
+#~ "automaattisesti teemaan."
+
+#~ msgid "Shortcodes: %s"
+#~ msgstr "Lyhytkoodit (Shortcodes): %s"
+
+#~ msgid "%1$s Theme Settings"
+#~ msgstr "%1$s Teeman asetukset"
+
+#~ msgid "Theme Settings"
+#~ msgstr "Teeman asetukset"
+
+#~ msgid "Settings saved."
+#~ msgstr "Asetukset tallennettu."
+
+#~ msgid "Update Settings"
+#~ msgstr "Päivitä asetukset"
+
+#~ msgid "Support"
+#~ msgstr "Tuki"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "archives."
+#~ msgstr "Vimpain, jolla hallitaan arkistoja."
+
+#~ msgid "Select Year"
+#~ msgstr "Valitse vuosi"
+
+#~ msgid "Select Month"
+#~ msgstr "Valitse kuukausi"
+
+#~ msgid "Select Week"
+#~ msgstr "Valitse viikko"
+
+#~ msgid "Select Day"
+#~ msgstr "Valitse päivä"
+
+#~ msgid "Select Post"
+#~ msgstr "Valitse artikkeli"
+
+#~ msgid "Alphabetical"
+#~ msgstr "Aakkosellinen"
+
+#~ msgid "Daily"
+#~ msgstr "Päivittäiset"
+
+#~ msgid "Monthly"
+#~ msgstr "Kuukausittainen"
+
+#~ msgid "Post By Post"
+#~ msgstr "Artikkeli artikkelilta"
+
+#~ msgid "Weekly"
+#~ msgstr "Viikottainen"
+
+#~ msgid "Yearly"
+#~ msgstr "Vuosittainen"
+
+#~ msgid "Custom"
+#~ msgstr "Kustomoitu"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Option"
+#~ msgstr "Valinta"
+
+#~ msgid "Title:"
+#~ msgstr "Otsikko:"
+
+#~ msgid "Show post count?"
+#~ msgstr "Näytä artikkeleiden lukumäärä?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "author lists."
+#~ msgstr "Vimpain, jolla hallitaan käyttäjälistaa."
+
+#~ msgid "Authors"
+#~ msgstr "Tekijät"
+
+#~ msgid "Ascending"
+#~ msgstr "Nouseva"
+
+#~ msgid "Descending"
+#~ msgstr "Laskeva"
+
+#~ msgid "Display Name"
+#~ msgstr "Näytä nimi"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Nice Name"
+#~ msgstr "Kutsumanimi"
+
+#~ msgid "Post Count"
+#~ msgstr "Artikkeleiden lukumäärä"
+
+#~ msgid "Registered"
+#~ msgstr "Rekisteröity"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Login"
+#~ msgstr "Kirjaudu sisään"
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+#~ msgstr "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+
+#~ msgid "Exclude admin?"
+#~ msgstr "Poislukien admin?"
+
+#~ msgid "Show full name?"
+#~ msgstr "Näytä koko nimi?"
+
+#~ msgid "Hide empty?"
+#~ msgstr "Piilota tyhjät?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "bookmarks (links)."
+#~ msgstr "Vimpain, jolla hallitaan linkkejä."
+
+#~ msgid "Bookmarks"
+#~ msgstr "Linkit"
+
+#~ msgid "Count"
+#~ msgstr "Lukumäärä"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "Slug"
+#~ msgstr "Polkutunnus"
+
+#~ msgid "Description"
+#~ msgstr "Kuvaus"
+
+#~ msgid "Length"
+#~ msgstr "Pituus"
+
+#~ msgid "Notes"
+#~ msgstr "Muistiinpanot"
+
+#~ msgid "Owner"
+#~ msgstr "Omistaja"
+
+#~ msgid "Random"
+#~ msgstr "Satunnainen"
+
+#~ msgid "Rating"
+#~ msgstr "Arvostelu"
+
+#~ msgid "Rel"
+#~ msgstr "Rel"
+
+#~ msgid "Target"
+#~ msgstr "Kohde"
+
+#~ msgid "Updated"
+#~ msgstr "Päivitetty"
+
+#~ msgid "Categorize?"
+#~ msgstr "Kategorisoi?"
+
+#~ msgid "Show description?"
+#~ msgstr "Näytä kuvaus?"
+
+#~ msgid "Hide invisible?"
+#~ msgstr "Piilota näkymätön?"
+
+#~ msgid "Show rating?"
+#~ msgstr "Näytä luokitus?"
+
+#~ msgid "Show updated?"
+#~ msgstr "Näytä päivitys?"
+
+#~ msgid "Show images?"
+#~ msgstr "Näytä kuvat?"
+
+#~ msgid "Show name?"
+#~ msgstr "Näytä nimi?"
+
+#~ msgid "Show private?"
+#~ msgstr "Näytä yksityiset?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "calendar."
+#~ msgstr "Vimpain, jolla hallitaan kalenteria."
+
+#~ msgid "Calendar"
+#~ msgstr "Kalenteri"
+
+#~ msgid "One-letter abbreviation?"
+#~ msgstr "Yksikirjaiminen lyhenne?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "category links."
+#~ msgstr "Vimpain, jolla hallitaan kategorialinkkejä."
+
+#~ msgid "Categories"
+#~ msgstr "Kategoriat"
+
+#~ msgid "Term Group"
+#~ msgstr "Termien ryhmä"
+
+#~ msgid "Atom"
+#~ msgstr "Atom"
+
+#~ msgid "RDF"
+#~ msgstr "RDF"
+
+#~ msgid "RSS 2.0"
+#~ msgstr "RSS 2.0"
+
+#~ msgid "Hierarchical?"
+#~ msgstr "Hierarkinen?"
+
+#~ msgid "Use description?"
+#~ msgstr "Käytä kuvausta?"
+
+#~ msgid "Show last update?"
+#~ msgstr "Näytä viimeisin päivitys?"
+
+#~ msgid "Show count?"
+#~ msgstr "Näytä lukumäärä?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "menus."
+#~ msgstr "Vimpain, jolla hallitaan menuvalikkoja."
+
+#~ msgid "Navigation Menu"
+#~ msgstr "Navigaatiomenu"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigaatio"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "page links."
+#~ msgstr "Vimpain, jolla hallitaan sivujen linkkejä."
+
+#~ msgid "Pages"
+#~ msgstr "Sivut"
+
+#~ msgid "Author"
+#~ msgstr "Tekijä"
+
+#~ msgid "Menu Order"
+#~ msgstr "Menun järjestys"
+
+#~ msgid "Modified"
+#~ msgstr "Muokattu"
+
+#~ msgid "Title"
+#~ msgstr "Otsikko"
+
+#~ msgid "Created"
+#~ msgstr "Luotu"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "search form."
+#~ msgstr "Vimpain, jolla hallitaan hakulomaketta."
+
+#~ msgid "Search Label:"
+#~ msgstr "Etsi label:"
+
+#~ msgid "Search Text:"
+#~ msgstr "Etsi teksti:"
+
+#~ msgid "Search Submit:"
+#~ msgstr "Etsi lähetä:"
+
+#~ msgid "Use theme's <code>searchform.php</code>?"
+#~ msgstr "Käytä teeman <code>searchform.php</code> tiedostoa?"
+
+#~ msgid ""
+#~ "An advanced widget that gives you total control over the output of your "
+#~ "tags."
+#~ msgstr "Vimpain, jolla hallitaan avainsanoja."
+
+#~ msgid "Tags"
+#~ msgstr "Avainsanat"
+
+#~ msgid "View"
+#~ msgstr "Näkymä"
+
+#~ msgid "Flat"
+#~ msgstr "Tyhjä"
+
+#~ msgid "Pad counts?"
+#~ msgstr "Pad lukumäärä?"
+
+#~ msgid "Browse:"
+#~ msgstr "Navigointi:"
+
+#~ msgid "Home"
+#~ msgstr "Etusivu"
+
+#~ msgid "g:i a"
+#~ msgstr "g:i a"
+
+#~ msgid "Minute %1$s"
+#~ msgstr "Minuutti %1$s"
+
+#~ msgid "i"
+#~ msgstr "i"
+
+#~ msgid "g a"
+#~ msgstr "g a"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Week %1$s"
+#~ msgstr "Viikko %1$s"
+
+#~ msgid "W"
+#~ msgstr "W"
+
+#~ msgid "Search results for &quot;%1$s&quot;"
+#~ msgstr "Hakutulokset haulle: &quot;%1$s&quot;"
+
+#~ msgid "404 Not Found"
+#~ msgstr "404 Sivua ei löytynyt"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Articles in this series"
+#~ msgstr "Samaan aihepiiriin liittyvät artikkelit"
+
+#~ msgid "Series"
+#~ msgstr "Tähän liittyvät artikkelit"
+
+#~ msgid "%s Stylesheet"
+#~ msgstr "%s Tyylitiedosto"
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "One Column"
+#~ msgstr "Yksi sarake"
+
+#~ msgid "Two Columns, Left"
+#~ msgstr "Kaksi saraketta, vasen"
+
+#~ msgid "Two Columns, Right"
+#~ msgstr "Kaksi saraketta, oikea"
+
+#~ msgid "Three Columns, Left"
+#~ msgstr "Kolme saraketta, vasen"
+
+#~ msgid "Three Columns, Right"
+#~ msgstr "Kolme  saraketta, oikea"
+
+#~ msgid "Three Columns, Center"
+#~ msgstr "Kolme saraketta, keski"
+
+#~ msgid "Layout"
+#~ msgstr "Ulkoasu"
+
+#~ msgid ""
+#~ "Layout is a theme-specific structure for the single view of the post."
+#~ msgstr ""
+#~ "Ulkoasulla voi vaihtaa yksittäisen sivun tai artikkelin sarakkeiden "
+#~ "asetuksia."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid ""
+#~ "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+#~ "comment."
+#~ msgstr ""
+#~ "Sinun pitää olla <a href=\"%1$s\" title=\"Log in\">kirjautuneena</a> "
+#~ "kirjoittaaksesi kommentin."
+
+#~ msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+#~ msgstr "Kirjautuneena nimellä <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#~ msgid "Log out of this account"
+#~ msgstr "Kirjaudu ulos tästä tilistä"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "Kirjaudu ulos &raquo;"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Jätä kommentti"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Jätä kommentti %s"
+
+#~ msgid "Click here to cancel reply."
+#~ msgstr "Klikkaa tästä peruuttaaksesi vastauksen."
+
+#~ msgid "Post Comment"
+#~ msgstr "Lähetä  kommentti"
+
+#~ msgid "Archive for %1$s"
+#~ msgstr "Arkisto: %1$s"
+
+#~ msgid "Archive for minute %1$s"
+#~ msgstr "Minuuttiarkisto %1$s"
+
+#~ msgid "F jS, Y"
+#~ msgstr "F jS, Y"
+
+#~ msgid "Archive for week %1$s of %2$s"
+#~ msgstr "Viikkoarkisto %1$s of %2$s"
+
+#~ msgid "%1$s Page %2$s"
+#~ msgstr "%1$s Sivu %2$s"
+
+#~ msgid "Copyright (c) %1$s"
+#~ msgstr "Copyright (c) %1$s"
+
+#~ msgid "l, F jS, Y, g:i a"
+#~ msgstr "l, F jS, Y, g:i a"
+
+#~ msgid ""
+#~ "<code>%1$s</code> &mdash; This function has been removed or replaced by "
+#~ "another function."
+#~ msgstr ""
+#~ "<code>%1$s</code> &mdash; Tämä funktio on poistettu or tai korvattu "
+#~ "toisella funktiolla."
+
+#~ msgid "Copyright &#169; [the-year] [site-link]."
+#~ msgstr "Copyright &#169; [the-year] [site-link]."
+
+#~ msgid "Powered by [wp-link], [theme-link], and [child-link]."
+#~ msgstr "Alustana [wp-link], [theme-link], ja [child-link]."
+
+#~ msgid "Powered by [wp-link] and [theme-link]."
+#~ msgstr "Alustana [wp-link] ja [theme-link]."
+
+#~ msgid ""
+#~ "Powered by WordPress, state-of-the-art semantic personal publishing "
+#~ "platform"
+#~ msgstr "Alustana WordPress"
+
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
+
+#~ msgid "Log out"
+#~ msgstr "Kirjaudu ulos"
+
+#~ msgid "Log into this account"
+#~ msgstr "Kirjaudu tähän tiliin"
+
+#~ msgid "Log in"
+#~ msgstr "Kirjaudu sisään"
+
+#~ msgid "This page loaded in %1$s seconds with %2$s database queries."
+#~ msgstr ""
+#~ "Sivu ladattiin %1$s sekunnissa, aikaa meni %2$s tietokannan kyselyihin."
+
+#~ msgid "Edit %1$s"
+#~ msgstr "Editoi %1$s"
+
+#~ msgid "Leave a response"
+#~ msgstr "Jätä kommentti"
+
+#~ msgid "%1$s Response"
+#~ msgstr "%1$s Kommentti"
+
+#~ msgid "%1$s Responses"
+#~ msgstr "%1$s Kommenttia"
+
+#~ msgid "Comment on %1$s"
+#~ msgstr "Kommentti %1$s"
+
+#~ msgid "(Untitled)"
+#~ msgstr "(Ei otsikkoa)"
+
+#~ msgid "Shortlink"
+#~ msgstr "Shortlink"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s / %2$s"
+
+#~ msgid "Permalink to comment %1$s"
+#~ msgstr "Linkki kommenttiin %1$s"
+
+#~ msgid "Permalink"
+#~ msgstr "Pikalinkki"
+
+#~ msgid "Reply"
+#~ msgstr "Vastaa"
+
+#~ msgid "Log in to reply."
+#~ msgstr "Kirjaudu sisään vastataksesi."
+
+#~ msgid "The main (primary) widget area, most often used as a sidebar."
+#~ msgstr ""
+#~ "Päävimpainalue (primary widget area), yleisesti käytetty sivupalkissa."
+
+#~ msgid ""
+#~ "The second most important widget area, most often used as a secondary "
+#~ "sidebar."
+#~ msgstr "Toiseksi tärkein vimpainalue, yleisesti käytetty sivupalkissa."
+
+#~ msgid "A widget area loaded in the footer of the site."
+#~ msgstr "Vimpainalue, joka ladataan sivun footeriin."
+
+#~ msgid "Displayed within the site's header area."
+#~ msgstr "Näytetään sivun headerissa."
+
+#~ msgid "Loaded before the page's main content area."
+#~ msgstr "Ladataan ennen sivun sisältöä."
+
+#~ msgid "Loaded after the page's main content area."
+#~ msgstr "Ladataan sivun sisällön jälkeen."
+
+#~ msgid ""
+#~ "Loaded on singular post (page, attachment, etc.) views before the "
+#~ "comments area."
+#~ msgstr ""
+#~ "Ladataan yksittäisen sivun (artikkelin, kuvasivun jne.) jälkeen ennen "
+#~ "kommenttialuetta."
+
+#~ msgid "Choose what movies you want to show from %s"
+#~ msgstr "Valitse mitä elokuvia haluat näkyvän sivulta %s"
+
+#~ msgid "%1$s Settings"
+#~ msgstr "%1$s Asetukset"
+
+#~ msgid "Thumbnail:"
+#~ msgstr "Pikkukuva:"
+
+#~ msgid "Footer Insert:"
+#~ msgstr "Footerin sisältö:"
+
+#~ msgid "&laquo; Previous"
+#~ msgstr "&laquo; Edellinen"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "Seuraava &raquo;"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Päämenu"
+
+#~ msgid "Secondary Menu"
+#~ msgstr "Toinen menu"
+
+#~ msgid "Subsidiary Menu"
+#~ msgstr "Kolmas menu"
+
+#~ msgid "Primary"
+#~ msgstr "Päävimpain"
+
+#~ msgid "Secondary"
+#~ msgstr "Toissijainen vimpain"
+
+#~ msgid "Subsidiary"
+#~ msgstr "Kolmas vimpainalue"
+
+#~ msgid "Header"
+#~ msgstr "Header"
+
+#~ msgid "Before Content"
+#~ msgstr "Ennen sisältöä"
+
+#~ msgid "After Content"
+#~ msgstr "Sisällön jälkeen"
+
+#~ msgid "After Singular"
+#~ msgstr "Yksittäisen sivun jälkeen"
+
+#~ msgid "<h3>Movie Showtimes</h3>"
+#~ msgstr "<h3>Elokuvan näytösajat</h3>"
+
+#~ msgid "Age limit:"
+#~ msgstr "Ikäraja:"
+
+#~ msgid "Movie length."
+#~ msgstr "Elokuvan kesto."
+
+#~ msgid "Movie length:&nbsp;"
+#~ msgstr "Elokuvan kesto:&nbsp;"
+
+#~ msgid "Delete this image"
+#~ msgstr "Poista tämä kuva"
+
+#~ msgid "Delete"
+#~ msgstr "Poista"
+
+#~ msgid "Uploaded files"
+#~ msgstr "Ladatut tiedostot"
+
+#~ msgid "Upload new files"
+#~ msgstr "Lataa uusia tiedostoja"
+
+#~ msgid "Add more file"
+#~ msgstr "Lisää uusia tiedostoja"
+
+#~ msgid "Add more images"
+#~ msgstr "Lisää kuvia"
+
+#~ msgid "Select a color"
+#~ msgstr "Valitse väri"
+
+#~ msgid "Give list of movie showtimes. Only ul, ol and li are accepted."
+#~ msgstr ""
+#~ "Anna elokuvan näytösajat. Vain ul, ol ja li hyväksytään html tageistä."
+
+#~ msgid "Read more"
+#~ msgstr "Lue lisää"
+
+#~ msgid ""
+#~ "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms "
+#~ "before=\"| Tagged \"] [entry-comments-link before=\" | \"]"
+#~ msgstr ""
+#~ "[entry-terms taxonomy=\"category\" before=\"Artikkeli kategoriassa \"] "
+#~ "[entry-terms before=\"| Avainsanat \"] [entry-comments-link before=\" | "
+#~ "\"]"
+
+#~ msgid "Example Settings"
+#~ msgstr "Esimerkkiasetukset"
+
+#~ msgid "Example Text Input:"
+#~ msgstr "Esimerkki tekstikenttä:"
+
+#~ msgid "Example Description"
+#~ msgstr "Esimerkkikuvaus"
+
+#~ msgid "Example Textarea:"
+#~ msgstr "Esimerkki tekstikenttä:"
+
+#~ msgid "WordPress: www-production pieces fall into place."
+#~ msgstr "WordPressin avulla www-tuotannon palaset loksahtavat paikoilleen."
+
+#~ msgid "Showcases"
+#~ msgstr "Referenssit"
+
+#~ msgid "Showcase"
+#~ msgstr "Referenssi"
+
+#~ msgid "Add New Showcase"
+#~ msgstr "Lisää uusi referenssi"
+
+#~ msgid "Edit Showcase"
+#~ msgstr "Editoi referenssiä"
+
+#~ msgid "New Showcase"
+#~ msgstr "Uusi referenssi"
+
+#~ msgid "Search Showcases"
+#~ msgstr "Etsi referensseistä:"
+
+#~ msgid "Give Showcase website address"
+#~ msgstr "Syötä referenssin www-osoite"
+
+#~ msgid "Works"
+#~ msgstr "Tehdyt työt"
+
+#~ msgid "Work"
+#~ msgstr "Tehty työ"
+
+#~ msgid "&larr; Return to entry"
+#~ msgstr "&larr; Palaa edelliselle sivulle"
+
+#~ msgid "Previous Entry: %link"
+#~ msgstr "Edellinen: %link"
+
+#~ msgid "Next Entry: %link"
+#~ msgstr "Seuraava: %link"
+
+#~ msgid "&larr; Previous"
+#~ msgstr "&larr; Edellinen"
+
+#~ msgid "<span class=\"previous frontpagebutton\">&larr; Previous</span>"
+#~ msgstr "<span class=\"previous frontpagebutton\">&larr; Edellinen</span>"
+
+#~ msgid "<span class=\"next frontpagebutton\">Next &rarr;</span>"
+#~ msgstr "<span class=\"next frontpagebutton\">Seuraava &rarr;</span>"
