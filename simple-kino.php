@@ -106,14 +106,19 @@ function simple_kino_plugin_activate() {
 	/* Flush permalinks. */
     flush_rewrite_rules();
 	
-	global $wp_roles;
-	$wp_roles->add_cap( 'administrator', 'edit_simple_kino_movie' );
-	$wp_roles->add_cap( 'administrator', 'read_simple_kino_movie' );
-	$wp_roles->add_cap( 'administrator', 'delete_simple_kino_movie' );
-	$wp_roles->add_cap( 'administrator', 'edit_simple_kino_movies' );
-	$wp_roles->add_cap( 'administrator', 'edit_others_simple_kino_movies' );
-	$wp_roles->add_cap( 'administrator', 'publish_simple_kino_movies' );
-	$wp_roles->add_cap( 'administrator', 'read_private_simple_kino_movie' );
+	$role =& get_role( 'administrator' );
+
+	if ( !empty( $role ) ) {
+
+		$role->add_cap( 'edit_simple_kino_movie' );
+		$role->add_cap( 'read_simple_kino_movie' );
+		$role->add_cap( 'delete_simple_kino_movie' );
+		$role->add_cap( 'edit_simple_kino_movies' );
+		$role->add_cap( 'edit_others_simple_kino_movies' );
+		$role->add_cap( 'publish_simple_kino_movies' );
+		$role->add_cap( 'read_private_simple_kino_movie' );
+	
+	}
 	
 }
 
@@ -126,14 +131,19 @@ function simple_kino_plugin_deactivate() {
 	/* Flush permalinks. */
     flush_rewrite_rules();
 	
-	global $wp_roles;
-	$wp_roles->remove_cap( 'administrator', 'edit_simple_kino_movie' );
-	$wp_roles->remove_cap( 'administrator', 'read_simple_kino_movie' );
-	$wp_roles->remove_cap( 'administrator', 'delete_simple_kino_movie' );
-	$wp_roles->remove_cap( 'administrator', 'edit_simple_kino_movies' );
-	$wp_roles->remove_cap( 'administrator', 'edit_others_simple_kino_movies' );
-	$wp_roles->remove_cap( 'administrator', 'publish_simple_kino_movies' );
-	$wp_roles->remove_cap( 'administrator', 'read_private_simple_kino_movie' );
+	$role =& get_role( 'administrator' );
+
+	if ( !empty( $role ) ) {
+
+		$role->remove_cap( 'edit_simple_kino_movie' );
+		$role->remove_cap( 'read_simple_kino_movie' );
+		$role->remove_cap( 'delete_simple_kino_movie' );
+		$role->remove_cap( 'edit_simple_kino_movies' );
+		$role->remove_cap( 'edit_others_simple_kino_movies' );
+		$role->remove_cap( 'publish_simple_kino_movies' );
+		$role->remove_cap( 'read_private_simple_kino_movie' );
+	
+	}
 	
 }
 
@@ -583,10 +593,10 @@ function simple_kino_custom_post_types_admin_order( $query ) {
 	
 	/* Order if is custom post type movie or is taxonomy movietimes, genre, director, actors or agelimit. */
 	if ( $query->is_main_query() && ( 'movie' == $post_type or is_tax( 'movietimes' ) or is_tax( 'genre' ) or is_tax( 'director' ) or is_tax( 'actors' ) or is_tax( 'agelimit' ) ) ) {
-		//$query->set( 'orderby', 'title' );
+		$query->set( 'orderby', 'title' );
 		//$query->set( 'meta_key', 'simple_kino_premiere' );
 		//$query->set( 'orderby', 'meta_value_num' );
-		//$query->set( 'order', 'asc' );
+		$query->set( 'order', 'asc' );
 	}
 
 	return $query; 
