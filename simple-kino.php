@@ -4,7 +4,7 @@
  * Plugin URI: http://foxnet.fi
  * Description: Register movie site in WordPress theme
  * Author: Sami Keijonen
- * Version: 0.1
+ * Version: 0.1.1
  * Author URI: http://foxnet.fi
 
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 
@@ -52,6 +52,9 @@ function simple_kino_setup() {
 
 	/* Add Custom Post Type movie. */
 	add_action( 'init', 'simple_kino_register_my_post_type_movies' );
+	
+	/* Map meta capabilities. */
+	add_filter( 'map_meta_cap', 'simple_kino_map_meta_cap', 10, 4 );
 	
 	/* Add taxonomies Genre, Director, Actors, Age limit for movies Post Type. Those are not hierarchical.
 	 * Also add hierarchical taxonomy like 'categories' Now playing, Upcoming movies.
@@ -110,13 +113,15 @@ function simple_kino_plugin_activate() {
 
 	if ( !empty( $role ) ) {
 
-		$role->add_cap( 'edit_simple_kino_movie' );
-		$role->add_cap( 'read_simple_kino_movie' );
-		$role->add_cap( 'delete_simple_kino_movie' );
 		$role->add_cap( 'edit_simple_kino_movies' );
 		$role->add_cap( 'edit_others_simple_kino_movies' );
 		$role->add_cap( 'publish_simple_kino_movies' );
-		$role->add_cap( 'read_private_simple_kino_movie' );
+		$role->add_cap( 'read_private_simple_kino_movies' );
+		$role->add_cap( 'delete_simple_kino_movies' );
+		$role->add_cap( 'delete_others_simple_kino_movie' );
+		$role->add_cap( 'manage_simple_kino_taxonomies' );
+		$role->add_cap( 'edit_simple_kino_taxonomies' );
+		$role->add_cap( 'delete	_simple_kino_taxonomies' );
 	
 	}
 	
@@ -135,13 +140,15 @@ function simple_kino_plugin_deactivate() {
 
 	if ( !empty( $role ) ) {
 
-		$role->remove_cap( 'edit_simple_kino_movie' );
-		$role->remove_cap( 'read_simple_kino_movie' );
-		$role->remove_cap( 'delete_simple_kino_movie' );
 		$role->remove_cap( 'edit_simple_kino_movies' );
 		$role->remove_cap( 'edit_others_simple_kino_movies' );
 		$role->remove_cap( 'publish_simple_kino_movies' );
-		$role->remove_cap( 'read_private_simple_kino_movie' );
+		$role->remove_cap( 'read_private_simple_kino_movies' );
+		$role->remove_cap( 'delete_simple_kino_movies' );
+		$role->remove_cap( 'delete_others_simple_kino_movie' );
+		$role->remove_cap( 'manage_simple_kino_taxonomies' );
+		$role->remove_cap( 'edit_simple_kino_taxonomies' );
+		$role->remove_cap( 'delete_simple_kino_taxonomies' );
 	
 	}
 	
@@ -153,7 +160,7 @@ function simple_kino_plugin_deactivate() {
  */
 function simple_kino_members_get_capabilities( $caps ) {
 
-	return array_merge( $caps, array( 'edit_simple_kino_movie', 'read_simple_kino_movie', 'delete_simple_kino_movie', 'edit_simple_kino_movies', 'edit_others_simple_kino_movies', 'publish_simple_kino_movies', 'read_private_simple_kino_movies' ) );
+	return array_merge( $caps, array( 'edit_simple_kino_movies', 'edit_others_simple_kino_movies', 'publish_simple_kino_movies', 'read_private_simple_kino_movies', 'delete_simple_kino_movies', 'delete_others_simple_kino_movie', 'manage_simple_kino_taxonomies', 'edit_simple_kino_taxonomies', 'delete_simple_kino_taxonomies' ) );
 	
 }
  
@@ -196,23 +203,68 @@ function simple_kino_register_my_post_type_movies() {
 		),
 		'has_archive' => true,
 		/* Global control over capabilities. @link http://justintadlock.com/archives/2010/07/10/meta-capabilities-for-custom-post-types */
-		//'capability_type' => 'simple_kino_movie',
+		'capability_type' => 'simple_kino_movie',
 
 		/* Specific control over capabilities. */
 		'capabilities' => array(
-			'edit_post' => 'edit_simple_kino_movie',
 			'edit_posts' => 'edit_simple_kino_movies',
 			'edit_others_posts' => 'edit_others_simple_kino_movies',
 			'publish_posts' => 'publish_simple_kino_movies',
-			'read_post' => 'read_simple_kino_movie',
 			'read_private_posts' => 'read_private_simple_kino_movies',
+			'delete_posts' => 'delete_simple_kino_movies',
+			'delete_others_posts' => 'delete_others_simple_kino_movie',
+			'edit_post' => 'edit_simple_kino_movie',
 			'delete_post' => 'delete_simple_kino_movie',
+			'read_post' => 'read_simple_kino_movie',
 		),
 		//'map_meta_cap' => true,
 	);
 	
 	/* Register the showcase post type with showcase arguments. */
 	 register_post_type( 'movie', $movie_args );	
+}
+
+function simple_kino_map_meta_cap( $caps, $cap, $user_id, $args ) {
+
+	/* If editing, deleting, or reading a movie, get the post and post type object. */
+	if ( 'edit_simple_kino_movie' == $cap || 'delete_simple_kino_movie' == $cap || 'read_simple_kino_movie' == $cap ) {
+		$post = get_post( $args[0] );
+		$post_type = get_post_type_object( $post->post_type );
+
+		/* Set an empty array for the caps. */
+		$caps = array();
+	}
+
+	/* If editing a movie, assign the required capability. */
+	if ( 'edit_simple_kino_movie' == $cap ) {
+		if ( $user_id == $post->post_author )
+			$caps[] = $post_type->cap->edit_posts;
+		else
+			$caps[] = $post_type->cap->edit_others_posts;
+	}
+
+	/* If deleting a movie, assign the required capability. */
+	elseif ( 'delete_simple_kino_movie' == $cap ) {
+		if ( $user_id == $post->post_author )
+			$caps[] = $post_type->cap->delete_posts;
+		else
+			$caps[] = $post_type->cap->delete_others_posts;
+	}
+
+	/* If reading a private movie, assign the required capability. */
+	elseif ( 'read_simple_kino_movie' == $cap ) {
+
+		if ( 'private' != $post->post_status )
+			$caps[] = 'read';
+		elseif ( $user_id == $post->post_author )
+			$caps[] = 'read';
+		else
+			$caps[] = $post_type->cap->read_private_posts;
+	}
+
+	/* Return the capabilities required by the user. */
+	return $caps;
+	
 }
 
 /**
@@ -250,7 +302,13 @@ function simple_kino_register_my_taxonomy() {
 			'update_item' => __( 'Update Movietime', 'simple-kino' ),
 			'add_new_item' => __( 'Add New Movietime', 'simple-kino' ),
 			'new_item_name' => __( 'New Movietime Name', 'simple-kino' ),
-	)	
+		),
+		'capabilities' => array(
+			'manage_terms' => 'manage_simple_kino_taxonomies',
+			'edit_terms' => 'edit_simple_kino_taxonomies',
+			'delete_terms' => 'delete_simple_kino_taxonomies',
+			'assign_terms' => 'edit_simple_kino_movies',
+		),
 );
 
 /* This is for Genre */
@@ -271,7 +329,13 @@ function simple_kino_register_my_taxonomy() {
 			'separate_items_with_commas' => __( 'Sepatate Genres with commas', 'simple-kino' ),
 			'add_or_remove_items' => __( 'Add or remove Genres', 'simple-kino' ),
 			'choose_from_most_used' => __( 'Choose from the most popular Genres', 'simple-kino' ),
-	)	
+		),
+		'capabilities' => array(
+			'manage_terms' => 'manage_simple_kino_taxonomies',
+			'edit_terms' => 'edit_simple_kino_taxonomies',
+			'delete_terms' => 'delete_simple_kino_taxonomies',
+			'assign_terms' => 'edit_simple_kino_movies',
+		),
 );	
 
 /* This is for Director */
@@ -292,7 +356,13 @@ function simple_kino_register_my_taxonomy() {
 			'separate_items_with_commas' => __( 'Sepatate Directors with commas', 'simple-kino' ),
 			'add_or_remove_items' => __( 'Add or remove Directors', 'simple-kino' ),
 			'choose_from_most_used' => __( 'Choose from the most popular Directors', 'simple-kino' ),
-	)	
+		),
+		'capabilities' => array(
+			'manage_terms' => 'manage_simple_kino_taxonomies',
+			'edit_terms' => 'edit_simple_kino_taxonomies',
+			'delete_terms' => 'delete_simple_kino_taxonomies',
+			'assign_terms' => 'edit_simple_kino_movies',
+		),		
 );	
 
 /* This is for Actors */
@@ -313,7 +383,13 @@ function simple_kino_register_my_taxonomy() {
 			'separate_items_with_commas' => __( 'Sepatate Actors with commas', 'simple-kino' ),
 			'add_or_remove_items' => __( 'Add or remove Actors', 'simple-kino' ),
 			'choose_from_most_used' => __( 'Choose from the most popular Actors', 'simple-kino' ),
-	)	
+		),
+		'capabilities' => array(
+			'manage_terms' => 'manage_simple_kino_taxonomies',
+			'edit_terms' => 'edit_simple_kino_taxonomies',
+			'delete_terms' => 'delete_simple_kino_taxonomies',
+			'assign_terms' => 'edit_simple_kino_movies',
+		),
 );	
 
 /* This is for Age limit */
@@ -334,7 +410,13 @@ function simple_kino_register_my_taxonomy() {
 			'separate_items_with_commas' => __( 'Sepatate Age limits with commas', 'simple-kino' ),
 			'add_or_remove_items' => __( 'Add or remove Age limits', 'simple-kino' ),
 			'choose_from_most_used' => __( 'Choose from the most popular Age limits', 'simple-kino' ),
-	)	
+		),
+		'capabilities' => array(
+			'manage_terms' => 'manage_simple_kino_taxonomies',
+			'edit_terms' => 'edit_simple_kino_taxonomies',
+			'delete_terms' => 'delete_simple_kino_taxonomies',
+			'assign_terms' => 'edit_simple_kino_movies',
+		),
 );		
 			
 /* Register taxonomies */
