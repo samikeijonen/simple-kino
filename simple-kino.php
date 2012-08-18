@@ -15,7 +15,7 @@
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
  * @package Simple Kino
- * @version 0.1.0
+ * @version 0.1.1
  * @author Sami Keijonen <sami.keijonen@foxnet.fi>
  * @copyright Copyright (c) 2012, Sami Keijonen
  * @link 
@@ -224,6 +224,11 @@ function simple_kino_register_my_post_type_movies() {
 	 register_post_type( 'movie', $movie_args );	
 }
 
+/**
+ * Map meta capabilities.
+ * @link: http://justintadlock.com/archives/2010/07/10/meta-capabilities-for-custom-post-types
+ * @since 0.1.1
+ */
 function simple_kino_map_meta_cap( $caps, $cap, $user_id, $args ) {
 
 	/* If editing, deleting, or reading a movie, get the post and post type object. */
